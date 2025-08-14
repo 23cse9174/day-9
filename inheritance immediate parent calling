@@ -1,0 +1,25 @@
+package comfort;
+
+
+class Bird
+{
+	Bird()
+	{
+		System.out.println("singing ")
+	}
+}
+class Dog extends Bird
+	{
+	Dog(){
+		System.out.println("bow");
+	}
+	public class multiple
+	{
+public static void main(String[]args){
+	Bird obj=new Bird();
+	
+	
+}
+	}
+}
+
