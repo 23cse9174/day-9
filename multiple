@@ -1,0 +1,25 @@
+package comfort;
+
+class Animal
+{
+	String color="red";
+}
+class Bird
+{
+	String color="purple";
+}
+class Dog extends Bird
+{
+	String color="white";
+	void display()
+	{
+		System.outprintln(color);
+		System.out.println(super.color);
+	}
+	public class multiple
+	{
+public static void main(Strin[]args){
+	Dog obj=new Dog
+			obj,display();
+}
+
