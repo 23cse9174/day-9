@@ -1,0 +1,32 @@
+package comfort;
+
+
+class Bird
+{
+	String color="purple";
+	void eat()
+	{
+		System.out.println("eating");
+	}
+class Dog extends Bird
+{
+	void bark()
+	{
+		System.out.println("barking");
+	}
+	void display()
+	{
+		super.eat();
+		bark();
+	}
+	
+	}
+	public class multiple
+	{
+public static void main(String[]args){
+	Dog obj=new Dog();
+			obj.display();
+}
+	}
+}
+
